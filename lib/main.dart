@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
-// import 'package:app/component/button.dart';
-// import 'package:app/component/counter_increment.dart';
-// import 'package:app/component/ShoppingList.dart';
-import 'package:app/component/LayoutBuilding.dart';
+// import 'package:app/components/button.dart';
+// import 'package:app/components/counter_increment.dart';
+// import 'package:app/components/ShoppingList.dart';
+// import 'package:app/components/LayoutBuilding.dart';
+import 'package:app/components/Responsive.dart';
 void main() {
     // runApp(
     //   const MaterialApp(
@@ -36,5 +37,6 @@ void main() {
     //     ),
     //   )
     // );
-    runApp(const LayoutBuilding());
+    // runApp(const LayoutBuilding());
+    runApp(const Responsive());
 }
